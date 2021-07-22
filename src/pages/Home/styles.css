@@ -9,5 +9,10 @@
 }
 
 .desc {
-  font-size: 50%;
+  font-size: 100%;
+}
+
+.myWork {
+  display: flex;
+  flex-direction: column;
 }
