@@ -1,4 +1,5 @@
 import "./styles.css"
+import { Link } from "react-routter-dom"
 
 export default function Home() {
   return(
@@ -6,8 +7,8 @@ export default function Home() {
      <p className="helloWorld">Hi, this is my website.</p>
      <div className="myWork">
        <div className="desc">Check out my work:</div>
-       <a href="https://webdev.starmain.dev">Web developmment</a>
-       <a href="htpps://games.starmain.dev">Games</a>
+       <Link to="/webdev">Web developmment</a>
+       <Link to="/games">Games</a>
      </div>
 
     </div>

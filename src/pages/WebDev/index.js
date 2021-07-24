@@ -2,7 +2,7 @@ import "./styles.css"
 
 export default function WebDev() {
   return (
-    <div className="Games">
+    <div className="WebDev">
       WebDev
       My websites:
       <a href="https://linkshortener.sites.starmain.dev">
