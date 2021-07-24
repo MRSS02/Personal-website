@@ -1,0 +1,19 @@
+.Navbar {
+  position: fixed;
+  background-color: #272727;
+  top: 0;
+  left: 0;
+  width: 80vw;
+  padding-top: 10px;
+  height: 50px;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  display: flex;
+  z-index: 1;
+  justify-content: space-around;
+}
+
+.Navbar .linkInstance {
+  text-decoration: none;
+  color: #AAAAAA;
+}

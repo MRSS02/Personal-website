@@ -5,6 +5,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: rgb(131,200,235);
+  background: rgb(187,228,249);
+background: -moz-linear-gradient(90deg, rgba(187,228,249,1) 0%, rgba(131,200,235,1) 50%, rgba(73,194,255,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(187,228,249,1) 0%, rgba(131,200,235,1) 50%, rgba(73,194,255,1) 100%);
+background: linear-gradient(90deg, rgba(187,228,249,1) 0%, rgba(131,200,235,1) 50%, rgba(73,194,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#bbe4f9",endColorstr="#49c2ff",GradientType=1); 
 }
 
 code {
