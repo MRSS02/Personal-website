@@ -19,6 +19,9 @@ export default function Sites() {
       <a href="https://loremipsum.sites.starmain.dev">
       loremipsum.sites.starmain.dev</a>
       </div>
+      <div className="instance">
+       See more on <a href="https://github.com/MRSS02">my Github page!</a>
+      </div>
     </div>
   )
 }
