@@ -2,10 +2,10 @@
   margin-top: 100px;
 }
 
-.Games h1 {
+.Games .title {
   font-weight: 500;
 }
 
 .Games .instance {
   margin-top: 30px;
-} 
+}
