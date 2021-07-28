@@ -8,9 +8,10 @@ export default function Sites() {
         <h2>Link Shortener</h2>
         <a className="projectLink" href="https://linkshortener.sites.starmain.dev">
         Check it out!</a>
-        <br />(based on
+        <div className="description">(based on
           <a href="https://www.frontendmentor.io/challenges/url-shortening-api-landing-page-2ce3ob-G"> this
           challenge</a> from frontendmentor)
+        </div>
       </div>
       <div className="instance">
         <h2>Lista de Compras (Shop List)</h2>

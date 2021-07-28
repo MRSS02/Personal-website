@@ -9,3 +9,15 @@
 .Games .instance {
   margin-top: 30px;
 }
+
+.Games .projectLink {
+  border-radius: 10px;
+  background-color: #33ff99;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  color: #CCCCCC;
+}
+
+.Games .description {
+  margin-top: 25px;
+}
