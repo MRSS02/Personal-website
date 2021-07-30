@@ -16,4 +16,13 @@
 .Navbar .linkInstance {
   text-decoration: none;
   color: #AAAAAA;
+  margin-bottom: 12px;
+  line-height: 2.2;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 10px;
+}
+
+.Navbar .linkInstance:hover {
+  background-color: #444444;
 }
