@@ -24,5 +24,13 @@
 }
 
 .Navbar .linkInstance:hover {
+  background-color: #333333;
+}
+
+.Navbar .active {
+  background-color: #444444;
+}
+
+.Navbar .active:hover {
   background-color: #444444;
 }
