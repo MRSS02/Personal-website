@@ -24,13 +24,14 @@
 }
 
 .Navbar .linkInstance:hover {
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
   background-color: #333333;
 }
 
 .Navbar .active {
-  background-color: #444444;
-}
-
-.Navbar .active:hover {
-  background-color: #444444;
+  pointer-events: none;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  background-color: #404040;
 }
