@@ -31,7 +31,14 @@
 
 .Navbar .active {
   pointer-events: none;
-  transition: 0.4s;
-  -webkit-transition: 0.4s;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
   background-color: #404040;
+}
+
+.Navbar .animation {
+  pointer-events: none;
+  transition: 0.1s;
+  -webkit-transition: 0.1s;
+  background-color: #606060;
 }

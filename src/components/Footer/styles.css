@@ -1,0 +1,17 @@
+.Footer {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  background-color: #272727;
+}
+
+.credits {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #AAAAAA;
+}
+
+.gh-link {
+  text-decoration: none;
+  color: rgb(30, 170, 200);
+}

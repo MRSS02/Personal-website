@@ -7,6 +7,7 @@ import Navbar from "./components/Navbar"
 import Home from "./pages/Home"
 import Games from "./pages/Games"
 import Sites from "./pages/Sites"
+import Footer from "./components/Footer"
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route exact path="/games" component={Games} />
         <Route exact path="/sites" component={Sites} />
+        <Footer />
       </Router>
     </div>
   );
