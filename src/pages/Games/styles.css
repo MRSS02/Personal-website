@@ -8,16 +8,36 @@
 
 .Games .instance {
   margin-top: 30px;
+  flex-direction: column;
+  height: 200px;
 }
 
 .Games .projectLink {
   border-radius: 10px;
-  background-color: #33ff99;
+  background-color: #272727;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
-  color: #CCCCCC;
+  color: #AAAAAA;
+}
+
+.Games .projectLink:hover {
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  background-color: #333333;
 }
 
 .Games .description {
   margin-top: 25px;
 }
+
+.Games .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 400px);
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
