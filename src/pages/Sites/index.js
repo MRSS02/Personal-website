@@ -24,6 +24,14 @@ export default function Sites() {
         <a className="projectLink" href="https://loremipsum.sites.starmain.dev">
         Check it out!</a>
         </div>
+        <div className="instance">
+          <h2>Hublive (college project)</h2>
+        <a className="projectLink" href="https://hublive.vercel.app/">
+        Check it out!</a>
+        <div className="description">
+          Created with <a href="https://github.com/Edson-G">Edson G.</a> and <a href="">João Victor</a>
+        </div>
+        </div>
       </div>
       <div className="instance">
         See more details on <a href="https://github.com/MRSS02">my Github page!</a>
