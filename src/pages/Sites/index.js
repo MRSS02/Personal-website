@@ -20,13 +20,13 @@ export default function Sites() {
         </div>
         <div className="instance">
           <h2>Lista de Compras (Shop List)</h2>
-          <a className="projectLink" href="https://listadecompras.sites.starmain.dev">
+          <a className="projectLink" href="https://listadecompras.starmain.dev">
             Check it out!
           </a>
         </div>
         <div className="instance">
           <h2>Gerador de Lorem Ipsum (Lorem Ipsum Generator)</h2>
-          <a className="projectLink" href="https://loremipsum.sites.starmain.dev">
+          <a className="projectLink" href="https://loremipsum.starmain.dev">
             Check it out!
           </a>
         </div>
@@ -43,6 +43,10 @@ export default function Sites() {
       <div className="instance">
         <h2>Job-challenge (landing page made for a job application)</h2>
         <a className="projectLink" href="https://job-challenge.starmain.dev/">
+          Check it out!
+        </a>
+        <h2>Recipe List (angular app made for a job application)</h2>
+        <a className="projectLink" href="https://recipelist.starmain.dev/">
           Check it out!
         </a>
       </div>
