@@ -7,7 +7,7 @@ export default function Sites() {
       <div className="grid">
         <div className="instance">
           <h2>Link Shortener</h2>
-          <a className="projectLink" href="https://linkshortener.sites.starmain.dev">
+          <a className="projectLink" href="https://linkshortener.starmain.dev">
             Check it out!
           </a>
           <div className="description">
