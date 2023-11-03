@@ -16,7 +16,7 @@ export default function Home() {
        </div>
        <div className="instance">
          <img className="logo" src="/img/Discord.svg" alt="Discord" />
-         Discord: MParaGames#1652
+         Discord: mparagames
        </div>
        <div className="instance">
          <img className="logo" src="/img/GitHub.png" alt="Github" />
