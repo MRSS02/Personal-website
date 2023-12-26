@@ -1,7 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
+import { render } from "react-dom";
 import {
-  BrowserRouter as Router, Route, Link,
+  BrowserRouter,
+  Routes,
+  Route
 } from "react-router-dom";
 import Navbar from "./components/Navbar"
 import Home from "./pages/Home"
@@ -12,13 +15,15 @@ import Footer from "./components/Footer"
 function App() {
   return (
     <div className="App">
-      <Router>
+      <BrowserRouter>
         <Navbar />
-        <Route exact path="/" component={Home} />
-        <Route exact path="/games" component={Games} />
-        <Route exact path="/sites" component={Sites} />
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="/games" element={<Games />} />
+          <Route exact path="/sites" element={<Sites />} /> 
+        </Routes>
         <Footer />
-      </Router>
+      </BrowserRouter>
     </div>
   );
 }

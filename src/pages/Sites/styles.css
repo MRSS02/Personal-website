@@ -4,20 +4,29 @@
 
 .Sites .title {
   font-weight: 500;
+  margin-bottom: 0px;
 }
 
 .Sites .instance {
+  display: inline-block;
   margin-top: 30px;
   flex-direction: column;
   height: 200px;
 }
 
+.Games .outsideLink {
+  display: inline-block;
+  margin-top: 60px;
+}
+
 .Sites .projectLink {
-  border-radius: 10px;
+  display: inline-block;
+  border-radius: 12px;
   background-color: #272727;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
   color: #AAAAAA;
+
 }
 
 .Sites .projectLink:hover {

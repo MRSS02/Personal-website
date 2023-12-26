@@ -14,8 +14,8 @@ export default function Games() {
         <div className="instance">
           <h2 className="subtitle">
            A Megera Domada - O jogo</h2>
-           <p className="description">(game in Portuguese)<br />
-           based on Shakespeare's book "The taming of the Shrew"</p>
+           <p className="description">
+           based on Shakespeare's book "The taming of the Shrew"<br/>(game in Portuguese)</p>
           <a className="projectLink" href="https://gamejolt.com/games/a-megera-domada-o-jogo-baseado-na-obra-shakespeareana/208087">
           Check it out on GameJolt!</a>
         </div>
@@ -35,12 +35,23 @@ export default function Games() {
         <div className="instance">
           <h2 className="subtitle">
            COLLAPSE!</h2>
-          <p className="description">(game in English)</p>
+          <p className="description">Made for GameJam FUBAJAM 2022<br/>(game in English)</p>
           <a className="projectLink" href="https://gamejolt.com/games/COLLAPSE/686621">
-          Check it out on GameJolt!</a>
+          Check it out on GameJolt!</a><br/>
+          <a className="projectLink" href="https://github.com/MRSS02/COLLAPSE">
+          Check the source code in GitHub!</a>
+        </div>
+        <div className="instance">
+          <h2 className="subtitle">
+           Entrelaços refeitos</h2>
+          <p className="description">Made for GameJam FUBAJAM 2023<br/>(game in English)</p>
+          <a className="projectLink" href="https://gamejolt.com/games/Enrtelacos_refeitos/785049">
+          Check it out on GameJolt!</a><br/>
+          <a className="projectLink" href="https://github.com/MRSS02/Entrela-os-Refeitos">
+          Check the source code in GitHub!</a>
         </div>
       </div>
-      <div className="instance">
+      <div className="outsideLink">
        See more details on <a href="https://gamejolt.com/@mparagames/games">my games page on GameJolt!</a>
       </div>
     </div>
