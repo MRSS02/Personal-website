@@ -20,7 +20,7 @@ export default function Sites() {
         </div>
         <div className="instance">
           <h2 className="subtitle">Balls</h2>
-          <p className="description">(joke website for learning purposes, displays an increasing quantity of sports balls)</p>
+          <p className="description">Joke website for learning purposes, displays an increasing quantity of sports balls</p>
           <a className="projectLink" href="https://balls.balls.starmain.dev">
             Check it out!
           </a>
@@ -47,13 +47,15 @@ export default function Sites() {
           </a>        
         </div>
         <div className="instance">
-        <h2>Job-challenge (landing page made for a job application)</h2>
+        <h2>Job-challenge</h2> 
+        <p className="description">Landing page made for a job application</p>
         <a className="projectLink" href="https://job-challenge.starmain.dev/">
           Check it out!
         </a>
         </div>
         <div className="instance">
-        <h2>Recipe List (angular app made for a job application)</h2>
+        <h2>Recipe List</h2>
+        <p className="description">Angular app made for a job application</p>
         <a className="projectLink" href="https://recipelist.starmain.dev/">
           Check it out!
         </a>
