@@ -44,7 +44,8 @@ export default function Sites() {
           </p>
           <a className="projectLink" href="https://hublive.vercel.app/">
             Check it out!
-          </a>        </div>
+          </a>        
+        </div>
         <div className="instance">
         <h2>Job-challenge (landing page made for a job application)</h2>
         <a className="projectLink" href="https://job-challenge.starmain.dev/">
@@ -57,12 +58,12 @@ export default function Sites() {
           Check it out!
         </a>
         </div>
-        </div>
         <div className="instance">
         <h2>Discord Video Embedder</h2>
         <a className="projectLink" href="https://video.starmain.dev/">
           Check it out!
         </a>
+        </div>
         </div>
         <div className="outsideLink">
         See more details on <a href="https://github.com/MRSS02">my Github page!</a>
