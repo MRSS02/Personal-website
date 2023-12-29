@@ -15,7 +15,7 @@ export default function Games() {
           <h2 className="subtitle">
            A Megera Domada - O jogo</h2>
            <p className="description">
-           based on Shakespeare's book "The taming of the Shrew"<br/>(game in Portuguese)</p>
+           Based on Shakespeare's book "The taming of the Shrew"<br/>(game in Portuguese)</p>
           <a className="projectLink" href="https://gamejolt.com/games/a-megera-domada-o-jogo-baseado-na-obra-shakespeareana/208087">
           Check it out on GameJolt!</a>
         </div>
