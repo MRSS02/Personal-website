@@ -11,7 +11,7 @@ export default function Sites() {
             Check it out!
           </a>
           <div className="description">
-            (based on{' '}
+            (based on
             <a href="https://www.frontendmentor.io/challenges/url-shortening-api-landing-page-2ce3ob-G"> 
               this challenge
             </a> 
@@ -30,7 +30,7 @@ export default function Sites() {
           <a className="projectLink" href="https://listadecompras.starmain.dev">
             Check it out!
           </a>
-        </div>
+        </div> 
         <div className="instance">
           <h2 className="subtitle">Gerador de Lorem Ipsum (Lorem Ipsum Generator)</h2>
           <a className="projectLink" href="https://loremipsum.starmain.dev">
@@ -63,6 +63,12 @@ export default function Sites() {
         <div className="instance">
         <h2>Discord Video Embedder</h2>
         <a className="projectLink" href="https://video.starmain.dev/">
+          Check it out!
+        </a>
+        </div>
+        <div className="instance">
+        <h2>Process Simulator</h2>
+        <a className="projectLink" href="https://process-simulator.starmain.dev/">
           Check it out!
         </a>
         </div>
