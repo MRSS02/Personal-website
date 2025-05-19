@@ -50,3 +50,34 @@
 
 }
 
+@media (max-width: 720px) {
+
+    .Sites .instance {
+        display: inline-block;
+        margin-top: 10px;
+        flex-direction: column;
+        height: 220px;
+        max-width: 90%;
+    }
+
+    .Sites .instance .subtitle {
+        font-size: 175%;
+    }
+
+}
+
+@media (max-width: 510px) {
+
+    .Sites .instance {
+        display: inline-block;
+        margin-top: 10px;
+        flex-direction: column;
+        height: 220px;
+        max-width: 80%;
+    }
+
+    .Sites .instance .subtitle {
+        font-size: 150%;
+    }
+
+}

@@ -27,7 +27,7 @@ export default function Games() {
         </div>
         <div className="instance">
           <h2 className="subtitle">
-           A revanche do garimpeiro</h2>
+           A Revanche do Garimpeiro</h2>
           <p className="description">(game in Portuguese)</p>
           <a className="projectLink" href="https://gamejolt.com/games/balasddfjhjkl/392551">
           Check it out on GameJolt!</a>
